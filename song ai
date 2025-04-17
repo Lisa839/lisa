@@ -1,0 +1,8 @@
+lyric-ai-app/
+├── app.py                ✅ Main app file
+├── requirements.txt      ✅ Python dependencies
+├── users.json            ✅ Stores user login data (can be empty: `{}`)
+├── lyrics/               ✅ Folder to store lyric files
+│   └── .gitkeep          ✅ Empty file to keep folder in Git
+└── .streamlit/
+    └── secrets.toml      ✅ Your API keys
