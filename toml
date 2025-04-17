@@ -1,0 +1,2 @@
+OPENAI_API_KEY = "sk-your-openai-key-here"
+REPLICATE_API_TOKEN = "r8-your-replicate-token-here"
