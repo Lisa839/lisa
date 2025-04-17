@@ -5,4 +5,12 @@ lyric-ai-app/
 ├── lyrics/               ✅ Folder to store lyric files
 │   └── .gitkeep          ✅ Empty file to keep folder in Git
 └── .streamlit/
-    └── secrets.toml      ✅ Your API keys
+    └── secrets.toml      ✅ Your API keys 
+OPENAI_API_KEY = "sk-xxxxxxxxxxxxxxxx"
+REPLICATE_API_TOKEN = "r8-xxxxxxxxxxxx"
+git init
+git remote add origin https://github.com/YOUR_USERNAME/lyric-ai-app.git
+git add .
+git commit -m "initial commit"
+git push -u origin main
+
